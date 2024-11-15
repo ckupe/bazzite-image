@@ -1,4 +1,4 @@
-FROM ghcr.io/ublue-os/bazzite-gnome-nvidia-open:latest
+FROM ghcr.io/ublue-os/bazzite-gnome-nvidia:latest
 
 RUN mkdir -p /var/lib/alternatives \
     && rpm-ostree install \
